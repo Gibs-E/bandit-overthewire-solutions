@@ -1,7 +1,9 @@
-# Bandit Level 09 → Level 10
+# Bandit Level 09 ➔ Level 10
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+The password for the next level is stored in the file **`data.txt`**, which has been encoded with **ROT13** cipher. You need to decode it to get the password.
+
+---
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +12,13 @@ ssh bandit9@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`<truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How to decode ROT13 using the tr (translate) command.
+-	The basics of substitution ciphers.
+-	That tr can quickly map one set of characters to another for transformations.
