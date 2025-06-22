@@ -9,12 +9,40 @@ This repository documents my solutions and learning notes from the [Bandit warga
 
 ## 🔄 Progress Tracker
 
-- [x] Level 0 → 1
-- [x] Level 1 → 2
-- [ ] Level 2 → 3
-- [ ] Level 3 → 4
-- [ ] Level 4 → 5
-- [ ] ...
+## 🧭 Progress Tracker
+- [x] Level 0 ➔ 1
+- [x] Level 1 ➔ 2
+- [x] Level 2 ➔ 3
+- [x] Level 3 ➔ 4
+- [x] Level 4 ➔ 5
+- [x] Level 5 ➔ 6
+- [x] Level 6 ➔ 7
+- [x] Level 7 ➔ 8
+- [x] Level 8 ➔ 9
+- [x] Level 9 ➔ 10
+- [x] Level 10 ➔ 11
+- [x] Level 11 ➔ 12
+- [x] Level 12 ➔ 13
+- [x] Level 13 ➔ 14
+- [x] Level 14 ➔ 15
+- [x] Level 15 ➔ 16
+- [x] Level 16 ➔ 17
+- [x] Level 17 ➔ 18
+- [x] Level 18 ➔ 19
+- [x] Level 19 ➔ 20
+- [x] Level 20 ➔ 21
+- [x] Level 21 ➔ 22
+- [x] Level 22 ➔ 23
+- [x] Level 23 ➔ 24
+- [x] Level 24 ➔ 25
+- [x] Level 25 ➔ 26
+- [x] Level 26 ➔ 27
+- [x] Level 27 ➔ 28
+- [x] Level 28 ➔ 29
+- [x] Level 29 ➔ 30
+- [x] Level 30 ➔ 31
+- [x] Level 31 ➔ 32
+- [x] Level 32 ➔ 33
 
 ---
 
