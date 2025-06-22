@@ -1,7 +1,10 @@
-# Bandit Level 16 → Level 17
+# Bandit Level 16 ➔ Level 17
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+The password for the next level can be retrieved by submitting the current password to a **custom service** running on **port 31000**.  
+However, the port is protected by **port knocking** — a sequence of ports must be accessed first in the correct order.
+
+---
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +13,15 @@ ssh bandit16@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+nmap -p- -sV --script=ssh-hostkey localhost
+for port in 31790 31960 31790; do nc -zv localhost $port; done
+nc localhost 31000
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`xbgTi9NZZBrVRn5aPyU4q6537eVjdV3g`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How port knocking can be used as a security measure to temporarily open ports.
+-	How to simulate knocking using nc -zv in sequence.
+-	That advanced services may require extra steps just to become accessible.
