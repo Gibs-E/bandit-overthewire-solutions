@@ -18,5 +18,5 @@ cat ./-
 `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 
 ## 📘 What I Learned:
-•	How to read a file with a tricky name (a dash -) using relative path (./-).
- •	The importance of escaping or handling special characters in file names.
+- How to read a file with a tricky name (a dash `-`) using relative path `./-`
+- The importance of escaping or handling special characters in file names
