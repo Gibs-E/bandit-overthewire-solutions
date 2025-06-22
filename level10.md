@@ -1,7 +1,9 @@
-# Bandit Level 10 → Level 11
+# Bandit Level 10 ➔ Level 11
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+The password for the next level is stored in the file **`data.txt`**, which contains binary data. You need to extract only the human-readable text from it.
+
+---
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +12,13 @@ ssh bandit10@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+strings data.txt
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How to use strings to extract printable characters from a binary file.
+-	How to visually identify passwords in noisy data.
+-	Why tools like strings are useful for analyzing non-text files.
