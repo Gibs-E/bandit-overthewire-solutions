@@ -7,7 +7,6 @@ This repository documents my solutions and learning notes from the [Bandit warga
 
 ---
 
-## 🔄 Progress Tracker
 
 ## 🧭 Progress Tracker
 - [x] Level 0 ➔ 1
@@ -48,13 +47,18 @@ This repository documents my solutions and learning notes from the [Bandit warga
 
 ## 🧠 What I'm Learning
 
-- SSH basics
+- SSH basics and remote login
 - Navigating the Linux file system
-- Reading hidden and protected files
-- Using `cat`, `ls`, `file`, `grep`, `find`, `base64`, `gzip`, etc.
-- Understanding file permissions
-- Command chaining and redirection
-
+- Reading hidden, protected, and oddly named files
+- Using commands like `cat`, `ls`, `file`, `grep`, `find`, `du`, `tar`, `base64`, `xxd`, `gzip`, etc.
+- Understanding and modifying file permissions
+- Redirecting input/output and chaining commands (`|`, `>`, `>>`)
+- Working with symbolic links, binary files, and scripts
+- Decoding encoded/obfuscated data
+- Searching within and manipulating large files
+- Using port scanning and connecting to ports with `nc`
+- Basic scripting and automation
+- Reading and understanding cron jobs
 ---
 
 ## 📂 Structure
