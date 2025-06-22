@@ -66,5 +66,4 @@ Each level will have a file like this:
 - [Level 29](./level29.md)
 - [Level 30](./level30.md)
 - [Level 31](./level31.md)
-- [Level 32](./level32.md)
-- [Level 33](./level33.md)
+
