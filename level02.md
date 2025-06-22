@@ -18,5 +18,5 @@ cat "spaces in this filename"
 `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 
 ## 📘 What I Learned:
-- _•	How to handle file names with spaces using quotes or escape characters (\).
-	•	More practice navigating and working in the Linux file system._
+- How to handle file names with spaces using quotes or escape characters (`\`).
+- More practice navigating and working in the Linux file system.
