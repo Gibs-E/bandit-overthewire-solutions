@@ -1,7 +1,12 @@
-# Bandit Level 30 → Level 31
+# Bandit Level 30 ➔ Level 31
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+There's a binary file called `bandit31` in the home directory.  
+This binary **expects an environment variable called `LEGEND` to be set** to the password from the previous level.
+
+If it is set correctly, it will print the password for the next level.
+
+---
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +15,13 @@ ssh bandit30@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+LEGEND=b5Ycw5sTw7x9S7GkUD3fjwlhbEZHTBmw ./bandit31
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How environment variables can be required by binaries to control behavior.
+- That password validation can be done through external variable checks.
+-	How to temporarily export and use environment variables inline.
