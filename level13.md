@@ -1,7 +1,10 @@
-# Bandit Level 13 → Level 14
+# Bandit Level 13 ➔ Level 14
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+The password for the next level is stored in the **`/etc/bandit_pass/bandit14`** file, but you are **not allowed to read it directly**.  
+Instead, you must **log in to the next level using the current password via SSH** on localhost as `bandit14`.
+
+---
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +13,15 @@ ssh bandit13@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+ssh bandit14@localhost -p 2220
+# When prompted for password, use:
+# 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How to use SSH to connect to a local user account securely.
+-	That file access restrictions can be bypassed through privilege chaining or lateral movement.
+-	Understanding trust boundaries and why multi-user permissions matter in Linux.
