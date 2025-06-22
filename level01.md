@@ -1,7 +1,7 @@
-# Bandit Level 01 → Level 02
+# Bandit Level 01 ➔ Level 02
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+_The password for the next level is stored in a file called `-`, located in the home directory._
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +10,13 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+ls
+cat ./-
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+•	How to read a file with a tricky name (a dash -) using relative path (./-).
+•	The importance of escaping or handling special characters in file names.
