@@ -1,11 +1,11 @@
-# Bandit Level 00 → Level 01
+# Bandit Level 02 → Level 03
 
 ## 🧠 Goal:
 _Describe the goal of this level here._
 
 ## 🔐 Login:
 ```bash
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
 
 ## 🛠️ Commands Used:
