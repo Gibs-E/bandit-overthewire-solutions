@@ -19,4 +19,4 @@ cat ./-
 
 ## 📘 What I Learned:
 •	How to read a file with a tricky name (a dash -) using relative path (./-).
-•	The importance of escaping or handling special characters in file names.
+ •	The importance of escaping or handling special characters in file names.
