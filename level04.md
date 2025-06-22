@@ -1,7 +1,8 @@
 # Bandit Level 04 → Level 05
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+_The password for the next level is stored in a hidden file in the inhere directory. The file is human-readable, not a directory, not executable, and its name starts with a dot (.).
+_
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +11,17 @@ ssh bandit4@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+ls -a
+cd inhere
+ls -a
+cat .hidden
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`koReBOKuIDDepwhWk7jZC0RTdopnAYKh`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How to view hidden files using ls -a.
+-	How to identify non-executable, human-readable files.
+-	Better understanding of how Linux treats filenames starting with a dot (.) as hidden.
+
