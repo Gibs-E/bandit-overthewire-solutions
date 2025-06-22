@@ -1,7 +1,9 @@
-# Bandit Level 08 → Level 09
+# Bandit Level 08 ➔ Level 09
 
 ## 🧠 Goal:
-_Describe the goal of this level here._
+The password for the next level is stored in the file **`data.txt`**, which contains base64-encoded text. You need to decode it to find the password.
+
+---
 
 ## 🔐 Login:
 ```bash
@@ -10,11 +12,12 @@ ssh bandit8@bandit.labs.overthewire.org -p 2220
 
 ## 🛠️ Commands Used:
 ```bash
-# List the commands used for this level
+cat data.txt | base64 --decode
 ```
 
 ## 🧾 Password Found:
-`<PASTE PASSWORD HERE>`
+`UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR`
 
 ## 📘 What I Learned:
-- _List out what you learned from this level here._
+- How to decode base64-encoded strings using base64 --decode.
+- How to pipe file content into a decoding command for quick analysis.
